@@ -1,0 +1,6 @@
+edgartools
+sentence-transformers
+chromadb
+google-genai
+python-dotenv
+beautifulsoup4
