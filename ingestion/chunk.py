@@ -1,7 +1,7 @@
 import json
 import os
 
-CHUNK_SIZE = 600
+CHUNK_SIZE = 549
 CHUNK_OVERLAP = 100
 
 def slug(section):
@@ -39,7 +39,7 @@ for filename in os.listdir("data/cleaned"):
         continue # skip non-JSON files
 
     with open(f"data/cleaned/{filename}", 'r', encoding='utf-8') as f:
-        records = json.load(f)
+        records = json.load(f) # load the cleaned records from the JSON file
 
     for record in records:
         pieces = chunk_text(record["text"])
@@ -52,15 +52,15 @@ for filename in os.listdir("data/cleaned"):
             f'min={min(lengths)} avg= {sum(lengths)/len(lengths):.2f} max={max(lengths)}'
         )
 
-    for i, piece in enumerate(pieces):
-        all_chunks.append({
-            "id": f"{record['ticker']}_{slug(record['section'])}_{i}",
-            "text": piece,
-            "company": record["company"],
-            "ticker": record["ticker"],
-            "section": record["section"],
-            "chunk_index": i
-        })
+        for i, piece in enumerate(pieces):
+            all_chunks.append({
+                "id": f"{record['ticker']}_{slug(record['section'])}_{i}",
+                "text": piece,
+                "company": record["company"],
+                "ticker": record["ticker"],
+                "section": record["section"],
+                "chunk_index": i
+            })
 
 out_path = "data/chunks/all_chunks.json"
 with open(out_path, 'w', encoding='utf-8') as f:
