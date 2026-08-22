@@ -46,22 +46,33 @@ def retreive_relevant_chunks(query, ticker=None, top_k=TOP_K):
     return hits
 
 def build_prompts(query, hits):
-    prompt = f"Answer the following question based on the provided context:\n\nQuestion: {query}\n\nContext:\n"
+    parts = []
 
     for i, hit in enumerate(hits):
-        prompt += (
-            f"Source 1 {i+1} (Company: {hit['company']}, Ticker: {hit['ticker']}, "
-            f"Section: {hit['section']}):\n "
-            f"{hit['text']}\n\n"
+        parts.append(
+            f"[Source {i+1}] | {hit['company']} ({hit['ticker']}) | {hit['section']}\n"
+            f"{hit['text']}"
         )
 
-    print(" Prompt built:\n", prompt)
-    
+    context = "\n\n".join(parts)
 
-    prompt += "Please provide a concise and accurate answer based on the above context."
-    return prompt
+    prompt = f"""You are answering questions about SEC 10-K filings. 
 
-build_prompts("What risks does Walmart face in its retail operations?", retreive_relevant_chunks("What risks does Walmart face in its retail operations?", ticker="WMT"))
+    Use ONLY the context below. Pull information ONLY fron the context below. If the answer is not in the context, say "not found in provided filings".
+    When you do answer, cite the company and section of the filing you are referencing in your answer. For example, if you are referencing a section from Walmart's 10-K filing, you would say "According to Walmart's 10-K filing, [section name]...".
+
+    Context:
+    {context}
+
+    Question: {query}
+
+    Answer:"""
+
+    print(prompt)
+
+    return(prompt)
+
+build_prompts("What risks does capital one face in its consumer lending operations?", retreive_relevant_chunks("What risks does capital one face in its consumer lending operations?", ticker="COF"))
 
 
     
