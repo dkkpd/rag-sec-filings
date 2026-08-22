@@ -75,7 +75,7 @@ def ask(question, ticker=None):
     prompt = build_prompts(question, chunks)
 
     interaction = gemini.interactions.create(
-        model= "gemini-3.5-flash",
+        model= "gemini-3.5-flash-lite",
         input = prompt
     )
 
@@ -114,5 +114,11 @@ if __name__ == "__main__":
         result = ask(question, ticker=ticker)
         print(f"Question: {result['question']} | ticker filter: {ticker}")
         print(f"Answer: {result['answer']}")
-        print(f"Sources: {result['sources']}")
+        print(f"\nSources:")
+        if "not found in provided filings" in result['answer']:
+            print("No sources found in the provided filings.")
+        else:
+            for source in result['sources']:
+                print(f"- {source['company']} ({source['ticker']}) | {source['section']}")
+
 
