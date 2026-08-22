@@ -29,29 +29,29 @@ def retreive_relevant_chunks(query, ticker=None, top_k=TOP_K):
 
     results = collection.query(**kwargs)
 
-    hits = []
+    chunks = []
 
     for doc, metadata, dist in zip(
         results["documents"][0],
         results["metadatas"][0],
         results["distances"][0]
     ):
-        hits.append({
+        chunks.append({
             "text": doc,
             "company": metadata["company"],
             "ticker": metadata["ticker"],
             "section": metadata["section"],
             "distance": dist
         })
-    return hits
+    return chunks
 
-def build_prompts(query, hits):
+def build_prompts(query, chunks):
     parts = []
 
-    for i, hit in enumerate(hits):
+    for i, chunk in enumerate(chunks):
         parts.append(
-            f"[Source {i+1}] | {hit['company']} ({hit['ticker']}) | {hit['section']}\n"
-            f"{hit['text']}"
+            f"[Source {i+1}] | {chunk['company']} ({chunk['ticker']}) | {chunk['section']}\n"
+            f"{chunk['text']}"
         )
 
     context = "\n\n".join(parts)
@@ -68,12 +68,51 @@ def build_prompts(query, hits):
 
     Answer:"""
 
-    print(prompt)
-
     return(prompt)
 
-build_prompts("What risks does capital one face in its consumer lending operations?", retreive_relevant_chunks("What risks does capital one face in its consumer lending operations?", ticker="COF"))
+def ask(question, ticker=None):
+    chunks = retreive_relevant_chunks(question, ticker=ticker)
+    prompt = build_prompts(question, chunks)
 
+    interaction = gemini.interactions.create(
+        model= "gemini-3.5-flash",
+        input = prompt
+    )
 
-    
+    sources = []
+    seen = set()
+
+    # --------- Collect unique sources from the chunks ---------
+    for chunk in chunks:
+        key = (chunk["ticker"], chunk["section"])
+        if key not in seen:
+            seen.add(key)
+            sources.append({
+                "ticker": chunk["ticker"],
+                "company": chunk["company"],
+                "section": chunk["section"]
+            })
+    # ----------------------------------------------------------
+
+    return {
+        "question": question,
+        "answer": interaction.output_text,
+        "sources": sources
+    }
+
+if __name__ == "__main__":
+    tests = [
+        ("What risks does Walmart face in its retail operations?", "WMT"),
+        ("How does Capital One describe credit card or credit risk?", "COF"),
+        ("How does Alphabet describe advertising, search, or regulatory risk?", "GOOGL"),
+        ("What are the key risks between Walmart and Capital One?", None),
+        ("Who is the CEO of Tesla", None) # test if model is able to say "not found in provided filings" when the answer is not in the context
+    ]
+
+    for question, ticker in tests:
+        print("\n" + "="*80)
+        result = ask(question, ticker=ticker)
+        print(f"Question: {result['question']} | ticker filter: {ticker}")
+        print(f"Answer: {result['answer']}")
+        print(f"Sources: {result['sources']}")
 
