@@ -58,7 +58,7 @@ def build_prompts(query, chunks):
 
     prompt = f"""You are answering questions about SEC 10-K filings. 
 
-    Use ONLY the context below. Pull information ONLY fron the context below. If the answer is not in the context, say "not found in provided filings".
+    Use ONLY the context below. Pull information ONLY from the context below. If the answer is not in the context, say "not found in provided filings".
     When you do answer, cite the company and section of the filing you are referencing in your answer. For example, if you are referencing a section from Walmart's 10-K filing, you would say "According to Walmart's 10-K filing, [section name]...".
 
     Context:
