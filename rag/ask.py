@@ -94,6 +94,9 @@ def ask(question, ticker=None):
             })
     # ----------------------------------------------------------
 
+    if "not found in provided filings" in interaction.output_text.lower():
+        sources = [] # if the answer is not found in the filings, return an empty list of sources
+
     return {
         "question": question,
         "answer": interaction.output_text,
@@ -106,7 +109,7 @@ if __name__ == "__main__":
         ("How does Capital One describe credit card or credit risk?", "COF"),
         ("How does Alphabet describe advertising, search, or regulatory risk?", "GOOGL"),
         ("What are the key risks between Walmart and Capital One?", None),
-        ("Who is the CEO of Tesla", None) # test if model is able to say "not found in provided filings" when the answer is not in the context
+        ("Who risks does Tesla face?", None) # test if model is able to say "not found in provided filings" when the answer is not in the context
     ]
 
     for question, ticker in tests:
@@ -115,10 +118,9 @@ if __name__ == "__main__":
         print(f"Question: {result['question']} | ticker filter: {ticker}")
         print(f"Answer: {result['answer']}")
         print(f"\nSources:")
-        if "not found in provided filings" in result['answer']:
-            print("No sources found in the provided filings.")
-        else:
-            for source in result['sources']:
-                print(f"- {source['company']} ({source['ticker']}) | {source['section']}")
+        if not result['sources']:
+            print("- No sources found in provided filings.")
+        for source in result['sources']:
+            print(f"- {source['company']} ({source['ticker']}) | {source['section']}")
 
 
