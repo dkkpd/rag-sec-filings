@@ -1,0 +1,173 @@
+[
+  {
+    "id": "wmt_01",
+    "question": "What could happen if Walmart fails to execute its omnichannel strategy?",
+    "ticker_filter": "WMT",
+    "expected_ticker": "WMT",
+    "expected_section_contains": "Item 1A",
+    "gold": "Failure to successfully execute our omnichannel strategy",
+    "type": "factual"
+  },
+  {
+    "id": "wmt_02",
+    "question": "Who does Walmart say it competes with in retail?",
+    "ticker_filter": "WMT",
+    "expected_ticker": "WMT",
+    "expected_section_contains": "Item 1A",
+    "gold": "We face strong competition from other retailers, wholesale club operators",
+    "type": "factual"
+  },
+  {
+    "id": "wmt_03",
+    "question": "How important does Walmart say international operations are to net sales?",
+    "ticker_filter": "WMT",
+    "expected_ticker": "WMT",
+    "expected_section_contains": "Item 1A",
+    "gold": "Walmart International operations generated approximately 19%",
+    "type": "factual"
+  },
+  {
+    "id": "wmt_04",
+    "question": "What share of what Walmart sells in the U.S. does it say is imported?",
+    "ticker_filter": "WMT",
+    "expected_ticker": "WMT",
+    "expected_section_contains": "Item 7",
+    "gold": "less than one third of what we sell in the U.S. is imported",
+    "type": "factual"
+  },
+  {
+    "id": "wmt_05",
+    "question": "How much did Walmart U.S. comparable sales increase in fiscal 2026?",
+    "ticker_filter": "WMT",
+    "expected_ticker": "WMT",
+    "expected_section_contains": "Item 7",
+    "gold": "Walmart U.S. comparable sales increased 4.3%",
+    "type": "factual"
+  },
+  {
+    "id": "wmt_06",
+    "question": "What macroeconomic issues does Walmart say create uncertainty, including tariffs?",
+    "ticker_filter": "WMT",
+    "expected_ticker": "WMT",
+    "expected_section_contains": "Item 7",
+    "gold": "tariffs and trade restrictions; inflationary trends",
+    "type": "factual"
+  },
+  {
+    "id": "cof_01",
+    "question": "How large is Capital One's loan portfolio relative to its credit risk?",
+    "ticker_filter": "COF",
+    "expected_ticker": "COF",
+    "expected_section_contains": "Item 7",
+    "gold": "Our loan portfolio accounts for the substantial majority of our credit risk exposure",
+    "type": "factual"
+  },
+  {
+    "id": "cof_02",
+    "question": "What customer situations does Capital One say can lead to default?",
+    "ticker_filter": "COF",
+    "expected_ticker": "COF",
+    "expected_section_contains": "Item 1A",
+    "gold": "job loss, higher debt levels or rising cost of servicing debt",
+    "type": "factual"
+  },
+  {
+    "id": "cof_03",
+    "question": "What acquisition-related cost risk does Capital One mention involving Discover?",
+    "ticker_filter": "COF",
+    "expected_ticker": "COF",
+    "expected_section_contains": "Item 1A",
+    "gold": "We will continue to incur substantial expenses related to the integration of Discover",
+    "type": "factual"
+  },
+  {
+    "id": "cof_04",
+    "question": "What does Capital One say about competition for loans and deposits?",
+    "ticker_filter": "COF",
+    "expected_ticker": "COF",
+    "expected_section_contains": "Item 1A",
+    "gold": "We operate in a highly competitive environment across all of our lines of business",
+    "type": "factual"
+  },
+  {
+    "id": "googl_01",
+    "question": "How much of Alphabet's 2025 revenue came from online advertising?",
+    "ticker_filter": "GOOGL",
+    "expected_ticker": "GOOGL",
+    "expected_section_contains": "Item 1A",
+    "gold": "We generated more than 70% of total revenues from online advertising in 2025",
+    "type": "factual"
+  },
+  {
+    "id": "googl_02",
+    "question": "What trademark risk does Alphabet describe for the word Google?",
+    "ticker_filter": "GOOGL",
+    "expected_ticker": "GOOGL",
+    "expected_section_contains": "Item 1A",
+    "gold": "becomes synonymous with the word \"search.\"",
+    "type": "factual"
+  },
+  {
+    "id": "googl_03",
+    "question": "What share of Alphabet's 2025 consolidated revenues were international?",
+    "ticker_filter": "GOOGL",
+    "expected_ticker": "GOOGL",
+    "expected_section_contains": "Item 1A",
+    "gold": "International revenues accounted for approximately 52% of consolidated revenues in 2025",
+    "type": "factual"
+  },
+  {
+    "id": "googl_04",
+    "question": "What custom chips does Alphabet mention in connection with AI infrastructure?",
+    "ticker_filter": "GOOGL",
+    "expected_ticker": "GOOGL",
+    "expected_section_contains": "Item 1A",
+    "gold": "including our custom TPUs",
+    "type": "factual"
+  },
+  {
+    "id": "googl_05",
+    "question": "How much did Google Cloud revenues increase from 2024 to 2025?",
+    "ticker_filter": "GOOGL",
+    "expected_ticker": "GOOGL",
+    "expected_section_contains": "Item 7",
+    "gold": "Google Cloud revenues increased $15.5 billion from 2024 to 2025",
+    "type": "factual"
+  },
+  {
+    "id": "cmp_01",
+    "question": "How do Walmart and Capital One each describe competition in their businesses?",
+    "ticker_filter": null,
+    "expected_ticker": "WMT,COF",
+    "expected_section_contains": "Item 1A",
+    "gold": "",
+    "type": "compare"
+  },
+  {
+    "id": "cmp_02",
+    "question": "What advertising- or consumer-related risks do Alphabet and Walmart each discuss?",
+    "ticker_filter": null,
+    "expected_ticker": "GOOGL,WMT",
+    "expected_section_contains": "Item 1A",
+    "gold": "",
+    "type": "compare"
+  },
+  {
+    "id": "oos_01",
+    "question": "Who is the CEO of Tesla?",
+    "ticker_filter": null,
+    "expected_ticker": null,
+    "expected_section_contains": "",
+    "gold": "",
+    "type": "oos"
+  },
+  {
+    "id": "oos_02",
+    "question": "What was Apple's iPhone revenue last quarter?",
+    "ticker_filter": null,
+    "expected_ticker": null,
+    "expected_section_contains": "",
+    "gold": "",
+    "type": "oos"
+  }
+]
