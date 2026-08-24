@@ -109,7 +109,7 @@ if __name__ == "__main__":
         ("How does Capital One describe credit card or credit risk?", "COF"),
         ("How does Alphabet describe advertising, search, or regulatory risk?", "GOOGL"),
         ("What are the key risks between Walmart and Capital One?", None),
-        ("Who risks does Tesla face?", None) # test if model is able to say "not found in provided filings" when the answer is not in the context
+        ("What risks does Tesla face?", None) # test if model is able to say "not found in provided filings" when the answer is not in the context
     ]
 
     for question, ticker in tests:

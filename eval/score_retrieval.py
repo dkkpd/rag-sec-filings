@@ -22,7 +22,7 @@ def score_factual(eval_question, chunks):
     )
     gold_phrase_found = eval_question["gold"].lower() in chunk_text
 
-    return has_expected_ticker and has_expected_section and gold_phrase_found
+    return has_expected_ticker, has_expected_section, gold_phrase_found
 
 
 def score_compare(eval_question, chunks):
@@ -65,7 +65,8 @@ def main():
         if question["type"] == "compare":
             ok = score_compare(question, chunks)
         else:
-            ok = score_factual(question, chunks)
+            ticker_ok, section_ok, gold_ok = score_factual(question, chunks)
+            ok = ticker_ok and section_ok and gold_ok
 
         shown=[]
         for chunk in chunks:
@@ -77,7 +78,16 @@ def main():
         else:
             label = "MISS"
 
-        print(f"{question["id"]} {label} | {shown}")
+        if question["type"] == "compare":
+            print(f"{question['id']} {label} | tickers={shown}")
+        else:
+            print(
+                f"{question['id']} {label} "
+                f"ticker={'Y' if ticker_ok else 'N'} "
+                f"section={'Y' if section_ok else 'N'} "
+                f"gold={'Y' if gold_ok else 'N'} "
+                f"| {shown}"
+            )
 
     print(f"\nretrieval@{TOP_K} = {hits}/{eligible} = {hits/eligible:.2f}")
 
