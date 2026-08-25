@@ -1,0 +1,383 @@
+[
+    {
+        "id": "wmt_01",
+        "type": "factual",
+        "question": "What could happen if Walmart fails to execute its omnichannel strategy?",
+        "ticker_filter": "WMT",
+        "answer": "According to Walmart's 10-K filing (Item 1A: Risk Factors), a failure or delay in the execution of Walmart's omnichannel strategy, as well as the cost of investments in eCommerce and technology, could materially adversely affect the company's financial performance, business operations, and securities in the future.",
+        "sources": [
+            {
+                "ticker": "WMT",
+                "company": "Walmart Inc.",
+                "section": "Item 1A: Risk Factors"
+            },
+            {
+                "ticker": "WMT",
+                "company": "Walmart Inc.",
+                "section": "Item 7: Management's Discussion and Analysis"
+            }
+        ],
+        "contexts": [
+            ", we offer various pickup, delivery and shipping programs including options where many products available for purchase online can be picked up by the customer or member at a local Walmart store or Sam's Club, which provides additional customer traffic at such stores and clubs. Omnichannel retailing is a rapidly evolving part of the retail industry and of our operations around the world, and we continue to make investments in supply chain automation and enhancements to support our omnichannel strategy. We must anticipate and meet our customers'",
+            " operations generated approximately 19% of our consolidated net sales. Walmart International's operations in various countries also source goods and services from other countries. Our future operating results in these countries could be negatively affected by a variety of factors, most of which are beyond our control. These factors include political conditions, including political instability, local and global economic conditions; legal and regulatory constraints, such as regulation of product and service offerings including regulatory restric",
+            "ond effectively to these competitive pressures and changes in the retail and other markets in which we operate, omnichannel innovations and omnichannel ecosystems developed by our competitors or delays or failure in execution of our strategy could materially adversely affect our financial performance. See \"Item 1. Business\" above for additional discussion of the competitive landscape of our business.\n\nFurther, the protection of our proprietary rights, including our trademarks, copyrights, domain names, patents and trade secrets, is important t",
+            "our beliefs and opinions as to risk factors that could materially and adversely affect our business operations and our securities in the future. References to past events are provided by way of example only and are not intended to be a complete listing or a representation as to whether or not such risk factors have occurred in the past or their likelihood of occurring in the future.\n\nStrategic Risks\n\nFailure to successfully execute our omnichannel strategy and the cost of our investments in eCommerce and technology may materially adversely aff",
+            "ome$25,158 $23,882 $22,154 \n\nPercentage of net sales\n\nGross profit27.5 %27.2 %26.8 %\n\nOperating expenses\n\n22.8 %22.6 %22.2 %\n\nOperating income5.2 %5.2 %5.0 %\n\nRetail unit counts at period end4,6114,6054,615\n\nRetail square feet at period end699698699\n\nNet sales for the Walmart U.S. segment increased $20.6 billion or 4.4% and $20.6 billion or 4.7% for fiscal 2026 and 2025, respectively, when compared to the previous fiscal year. The increases in net sales were primarily due to increases in comparable sales of 4.3% and 4.8% for fiscal 2026 and 20"
+        ]
+    },
+    {
+        "id": "wmt_02",
+        "type": "factual",
+        "question": "Who does Walmart say it competes with in retail?",
+        "ticker_filter": "WMT",
+        "answer": "According to Walmart's 10-K filing, the provided context does not mention who Walmart competes with in retail. Therefore, this information is not found in provided filings.",
+        "sources": [],
+        "contexts": [
+            ", we offer various pickup, delivery and shipping programs including options where many products available for purchase online can be picked up by the customer or member at a local Walmart store or Sam's Club, which provides additional customer traffic at such stores and clubs. Omnichannel retailing is a rapidly evolving part of the retail industry and of our operations around the world, and we continue to make investments in supply chain automation and enhancements to support our omnichannel strategy. We must anticipate and meet our customers'",
+            "icular period over the corresponding period in the previous year. Walmart's definition of comparable sales includes sales from stores and clubs open for the previous 12 months, including remodels, relocations, expansions and conversions, as well as eCommerce sales. We measure the eCommerce sales impact by including all sales initiated digitally, including omnichannel transactions which are fulfilled through our stores and clubs as well as certain other business offerings that are part of our ecosystem, such as our advertising net sales. Compar",
+            "growth in average ticket and transactions, and also reflected growth in unit volumes and strength in all merchandise categories. Comparable sales in fiscal 2025 were driven by growth in transactions and unit volumes, with strong sales in grocery and health and wellness. Walmart U.S. eCommerce sales positively contributed approximately 4.3% and 2.9% to comparable sales for fiscal 2026 and 2025, respectively. This growth reflects continued strength in customer and Walmart+ member engagement with omnichannel offerings, and was primarily driven by",
+            "hannel business model. This includes increasing comparable store and club sales through increasing membership at Sam's Club U.S. and through Walmart+, accelerating eCommerce sales growth and expansion of omnichannel initiatives that complement our strategy.\n\nComparable sales is a metric that indicates the performance of our existing stores and clubs by measuring the change in sales for such stores and clubs, including eCommerce sales, for a particular period over the corresponding period in the previous year. Walmart's definition of comparable",
+            "%6.3 %13.5 %\n\nMembership and other income1,565 1,478 1,408 \n\nGross profit27,847 26,618 24,810 \n\nOperating expenses\n\n24,309 22,595 21,309 \n\nOperating income$5,103 $5,501 $4,909 \n\nPercentage of net sales\n\nGross profit21.4 %21.8 %21.6 %\n\nOperating expenses\n\n18.6 %18.5 %18.6 %\n\nOperating income3.9 %4.5 %4.3 %\n\nRetail unit counts at period end5,743 5,566 5,402 \n\nRetail square feet at period end278 274 274 \n\nNet sales for the Walmart International segment increased $8.5 billion or 7.0% and $7.2 billion or 6.3% for fiscal 2026 and 2025, respectively,"
+        ]
+    },
+    {
+        "id": "wmt_03",
+        "type": "factual",
+        "question": "How important does Walmart say international operations are to net sales?",
+        "ticker_filter": "WMT",
+        "answer": "According to Walmart's 10-K filing, Item 1A: Risk Factors, Walmart International operations generated approximately 19% of consolidated net sales during fiscal 2026.",
+        "sources": [
+            {
+                "ticker": "WMT",
+                "company": "Walmart Inc.",
+                "section": "Item 1A: Risk Factors"
+            },
+            {
+                "ticker": "WMT",
+                "company": "Walmart Inc.",
+                "section": "Item 7: Management's Discussion and Analysis"
+            }
+        ],
+        "contexts": [
+            " subject us to legislative, judicial, accounting, legal, regulatory, tax, political and economic risks and conditions specific to the countries or regions in which we operate, which could materially adversely affect our business or financial performance.\n\nIn addition to our U.S. operations, we operate retail and eCommerce businesses in Africa, Canada, Central America, Chile, China, India and Mexico.\n\nDuring fiscal 2026, our Walmart International operations generated approximately 19% of our consolidated net sales. Walmart International's opera",
+            " operations generated approximately 19% of our consolidated net sales. Walmart International's operations in various countries also source goods and services from other countries. Our future operating results in these countries could be negatively affected by a variety of factors, most of which are beyond our control. These factors include political conditions, including political instability, local and global economic conditions; legal and regulatory constraints, such as regulation of product and service offerings including regulatory restric",
+            "%6.3 %13.5 %\n\nMembership and other income1,565 1,478 1,408 \n\nGross profit27,847 26,618 24,810 \n\nOperating expenses\n\n24,309 22,595 21,309 \n\nOperating income$5,103 $5,501 $4,909 \n\nPercentage of net sales\n\nGross profit21.4 %21.8 %21.6 %\n\nOperating expenses\n\n18.6 %18.5 %18.6 %\n\nOperating income3.9 %4.5 %4.3 %\n\nRetail unit counts at period end5,743 5,566 5,402 \n\nRetail square feet at period end278 274 274 \n\nNet sales for the Walmart International segment increased $8.5 billion or 7.0% and $7.2 billion or 6.3% for fiscal 2026 and 2025, respectively,",
+            "ome$25,158 $23,882 $22,154 \n\nPercentage of net sales\n\nGross profit27.5 %27.2 %26.8 %\n\nOperating expenses\n\n22.8 %22.6 %22.2 %\n\nOperating income5.2 %5.2 %5.0 %\n\nRetail unit counts at period end4,6114,6054,615\n\nRetail square feet at period end699698699\n\nNet sales for the Walmart U.S. segment increased $20.6 billion or 4.4% and $20.6 billion or 4.7% for fiscal 2026 and 2025, respectively, when compared to the previous fiscal year. The increases in net sales were primarily due to increases in comparable sales of 4.3% and 4.8% for fiscal 2026 and 20",
+            "5 and 2024, respectively. \n\nWalmart U.S. Segment\n\n Fiscal Years Ended January 31,\n\n(Dollar amounts and retail square feet in millions)202620252024\n\nNet sales$482,975 $462,415 $441,817 \n\nNet sales percentage change from comparable period4.4 %4.7 %5.1 %\n\nCalendar comparable sales increase4.3 %4.8 %5.5 %\n\nMembership and other income\n\n2,624 2,594 1,985 \n\nGross profit132,615 125,964 118,254 \n\nOperating expenses\n\n110,081 104,676 98,085 \n\nOperating income$25,158 $23,882 $22,154 \n\nPercentage of net sales\n\nGross profit27.5 %27.2 %26.8 %\n\nOperating expe"
+        ]
+    },
+    {
+        "id": "wmt_04",
+        "type": "factual",
+        "question": "What share of what Walmart sells in the U.S. does it say is imported?",
+        "ticker_filter": "WMT",
+        "answer": "According to Walmart's 10-K filing (Item 1A: Risk Factors), the provided context does not state a specific numerical share or percentage of what Walmart sells in the U.S. that is imported; it only states that \"A significant portion of the general merchandise we sell in our U.S. stores and clubs is manufactured in other countries.\"",
+        "sources": [
+            {
+                "ticker": "WMT",
+                "company": "Walmart Inc.",
+                "section": "Item 1A: Risk Factors"
+            },
+            {
+                "ticker": "WMT",
+                "company": "Walmart Inc.",
+                "section": "Item 7: Management's Discussion and Analysis"
+            }
+        ],
+        "contexts": [
+            "ss or financial performance and our reputation.\n\nChanges in tax and trade laws, regulations and interpretations could materially adversely affect our financial performance.\n\nIn fiscal 2026, our Walmart U.S. and Sam's Club U.S. operating segments generated approximately 82% of our consolidated net sales. A significant portion of the general merchandise we sell in our U.S. stores and clubs is manufactured in other countries. Significant changes in tax and trade policies, including tariffs, trade barriers, other restrictions on the exportation an",
+            " subject us to legislative, judicial, accounting, legal, regulatory, tax, political and economic risks and conditions specific to the countries or regions in which we operate, which could materially adversely affect our business or financial performance.\n\nIn addition to our U.S. operations, we operate retail and eCommerce businesses in Africa, Canada, Central America, Chile, China, India and Mexico.\n\nDuring fiscal 2026, our Walmart International operations generated approximately 19% of our consolidated net sales. Walmart International's opera",
+            "%6.3 %13.5 %\n\nMembership and other income1,565 1,478 1,408 \n\nGross profit27,847 26,618 24,810 \n\nOperating expenses\n\n24,309 22,595 21,309 \n\nOperating income$5,103 $5,501 $4,909 \n\nPercentage of net sales\n\nGross profit21.4 %21.8 %21.6 %\n\nOperating expenses\n\n18.6 %18.5 %18.6 %\n\nOperating income3.9 %4.5 %4.3 %\n\nRetail unit counts at period end5,743 5,566 5,402 \n\nRetail square feet at period end278 274 274 \n\nNet sales for the Walmart International segment increased $8.5 billion or 7.0% and $7.2 billion or 6.3% for fiscal 2026 and 2025, respectively,",
+            " operations generated approximately 19% of our consolidated net sales. Walmart International's operations in various countries also source goods and services from other countries. Our future operating results in these countries could be negatively affected by a variety of factors, most of which are beyond our control. These factors include political conditions, including political instability, local and global economic conditions; legal and regulatory constraints, such as regulation of product and service offerings including regulatory restric",
+            "5 and 2024, respectively. \n\nWalmart U.S. Segment\n\n Fiscal Years Ended January 31,\n\n(Dollar amounts and retail square feet in millions)202620252024\n\nNet sales$482,975 $462,415 $441,817 \n\nNet sales percentage change from comparable period4.4 %4.7 %5.1 %\n\nCalendar comparable sales increase4.3 %4.8 %5.5 %\n\nMembership and other income\n\n2,624 2,594 1,985 \n\nGross profit132,615 125,964 118,254 \n\nOperating expenses\n\n110,081 104,676 98,085 \n\nOperating income$25,158 $23,882 $22,154 \n\nPercentage of net sales\n\nGross profit27.5 %27.2 %26.8 %\n\nOperating expe"
+        ]
+    },
+    {
+        "id": "wmt_05",
+        "type": "factual",
+        "question": "How much did Walmart U.S. comparable sales increase in fiscal 2026?",
+        "ticker_filter": "WMT",
+        "answer": "According to Walmart's 10-K filing, Item 7: Management's Discussion and Analysis, the calendar comparable sales for the Walmart U.S. segment increased by 4.3% in fiscal 2026.",
+        "sources": [
+            {
+                "ticker": "WMT",
+                "company": "Walmart Inc.",
+                "section": "Item 7: Management's Discussion and Analysis"
+            }
+        ],
+        "contexts": [
+            "ome$25,158 $23,882 $22,154 \n\nPercentage of net sales\n\nGross profit27.5 %27.2 %26.8 %\n\nOperating expenses\n\n22.8 %22.6 %22.2 %\n\nOperating income5.2 %5.2 %5.0 %\n\nRetail unit counts at period end4,6114,6054,615\n\nRetail square feet at period end699698699\n\nNet sales for the Walmart U.S. segment increased $20.6 billion or 4.4% and $20.6 billion or 4.7% for fiscal 2026 and 2025, respectively, when compared to the previous fiscal year. The increases in net sales were primarily due to increases in comparable sales of 4.3% and 4.8% for fiscal 2026 and 20",
+            "5 and 2024, respectively. \n\nWalmart U.S. Segment\n\n Fiscal Years Ended January 31,\n\n(Dollar amounts and retail square feet in millions)202620252024\n\nNet sales$482,975 $462,415 $441,817 \n\nNet sales percentage change from comparable period4.4 %4.7 %5.1 %\n\nCalendar comparable sales increase4.3 %4.8 %5.5 %\n\nMembership and other income\n\n2,624 2,594 1,985 \n\nGross profit132,615 125,964 118,254 \n\nOperating expenses\n\n110,081 104,676 98,085 \n\nOperating income$25,158 $23,882 $22,154 \n\nPercentage of net sales\n\nGross profit27.5 %27.2 %26.8 %\n\nOperating expe",
+            "et sales were primarily due to increases in comparable sales of 4.3% and 4.8% for fiscal 2026 and 2025, respectively. Comparable sales in fiscal 2026 were driven by growth in average ticket and transactions, and also reflected growth in unit volumes and strength in all merchandise categories. Comparable sales in fiscal 2025 were driven by growth in transactions and unit volumes, with strong sales in grocery and health and wellness. Walmart U.S. eCommerce sales positively contributed approximately 4.3% and 2.9% to comparable sales for fiscal 20",
+            "%6.3 %13.5 %\n\nMembership and other income1,565 1,478 1,408 \n\nGross profit27,847 26,618 24,810 \n\nOperating expenses\n\n24,309 22,595 21,309 \n\nOperating income$5,103 $5,501 $4,909 \n\nPercentage of net sales\n\nGross profit21.4 %21.8 %21.6 %\n\nOperating expenses\n\n18.6 %18.5 %18.6 %\n\nOperating income3.9 %4.5 %4.3 %\n\nRetail unit counts at period end5,743 5,566 5,402 \n\nRetail square feet at period end278 274 274 \n\nNet sales for the Walmart International segment increased $8.5 billion or 7.0% and $7.2 billion or 6.3% for fiscal 2026 and 2025, respectively,",
+            "growth in average ticket and transactions, and also reflected growth in unit volumes and strength in all merchandise categories. Comparable sales in fiscal 2025 were driven by growth in transactions and unit volumes, with strong sales in grocery and health and wellness. Walmart U.S. eCommerce sales positively contributed approximately 4.3% and 2.9% to comparable sales for fiscal 2026 and 2025, respectively. This growth reflects continued strength in customer and Walmart+ member engagement with omnichannel offerings, and was primarily driven by"
+        ]
+    },
+    {
+        "id": "wmt_06",
+        "type": "factual",
+        "question": "What macroeconomic issues does Walmart say create uncertainty, including tariffs?",
+        "ticker_filter": "WMT",
+        "answer": "According to Walmart's 10-K filing, Item 7: Management's Discussion and Analysis, the macroeconomic issues and factors that are expected to create continued uncertainty in the business and global economy include:\n\n* Tariffs and trade restrictions\n* Inflationary trends\n* Fluctuations in global currencies\n* Swings in macroeconomic conditions and their effect on consumer confidence\n* Changes in employment trends\n* Volatility in fuel prices\n* Supply chain pressures",
+        "sources": [
+            {
+                "ticker": "WMT",
+                "company": "Walmart Inc.",
+                "section": "Item 7: Management's Discussion and Analysis"
+            },
+            {
+                "ticker": "WMT",
+                "company": "Walmart Inc.",
+                "section": "Item 1A: Risk Factors"
+            }
+        ],
+        "contexts": [
+            "uations. \n\nRecent Developments, Macroeconomic Conditions and Potential Impacts\n\nWe expect continued uncertainty in our business and the global economy due to the following factors: tariffs and trade restrictions; inflationary trends; fluctuations in global currencies; swings in macroeconomic conditions and their effect on consumer confidence; changes in employment trends; volatility in fuel prices; and supply chain pressures, any of which may impact our results. While we operate in a highly dynamic tariff environment, less than one third of wh",
+            " operations generated approximately 19% of our consolidated net sales. Walmart International's operations in various countries also source goods and services from other countries. Our future operating results in these countries could be negatively affected by a variety of factors, most of which are beyond our control. These factors include political conditions, including political instability, local and global economic conditions; legal and regulatory constraints, such as regulation of product and service offerings including regulatory restric",
+            " subject us to legislative, judicial, accounting, legal, regulatory, tax, political and economic risks and conditions specific to the countries or regions in which we operate, which could materially adversely affect our business or financial performance.\n\nIn addition to our U.S. operations, we operate retail and eCommerce businesses in Africa, Canada, Central America, Chile, China, India and Mexico.\n\nDuring fiscal 2026, our Walmart International operations generated approximately 19% of our consolidated net sales. Walmart International's opera",
+            "%6.3 %13.5 %\n\nMembership and other income1,565 1,478 1,408 \n\nGross profit27,847 26,618 24,810 \n\nOperating expenses\n\n24,309 22,595 21,309 \n\nOperating income$5,103 $5,501 $4,909 \n\nPercentage of net sales\n\nGross profit21.4 %21.8 %21.6 %\n\nOperating expenses\n\n18.6 %18.5 %18.6 %\n\nOperating income3.9 %4.5 %4.3 %\n\nRetail unit counts at period end5,743 5,566 5,402 \n\nRetail square feet at period end278 274 274 \n\nNet sales for the Walmart International segment increased $8.5 billion or 7.0% and $7.2 billion or 6.3% for fiscal 2026 and 2025, respectively,",
+            "ome$25,158 $23,882 $22,154 \n\nPercentage of net sales\n\nGross profit27.5 %27.2 %26.8 %\n\nOperating expenses\n\n22.8 %22.6 %22.2 %\n\nOperating income5.2 %5.2 %5.0 %\n\nRetail unit counts at period end4,6114,6054,615\n\nRetail square feet at period end699698699\n\nNet sales for the Walmart U.S. segment increased $20.6 billion or 4.4% and $20.6 billion or 4.7% for fiscal 2026 and 2025, respectively, when compared to the previous fiscal year. The increases in net sales were primarily due to increases in comparable sales of 4.3% and 4.8% for fiscal 2026 and 20"
+        ]
+    },
+    {
+        "id": "cof_01",
+        "type": "factual",
+        "question": "How large is Capital One's loan portfolio relative to its credit risk?",
+        "ticker_filter": "COF",
+        "answer": "According to Capital One Financial Corporation's 10-K filing, Item 7: Management's Discussion and Analysis, period-end loans held for investment increased by $6.7 billion to $84.8 billion as of December 31, 2025, and average loans held for investment increased by $5.3 billion to $81.2 billion in 2025. Additionally, regarding credit risk and collateral, Capital One states in Item 1A: Risk Factors that when customers default on secured loans, the value of the collateral may not be sufficient to compensate for the unpaid loan amount, and they may be unsuccessful in recovering the remaining balance. Other specific details regarding the size of the loan portfolio relative to its credit risk are not found in provided filings.",
+        "sources": [],
+        "contexts": [
+            "vant information about the ability of the borrowers to repay their debt. In determining the risk rating of a particular loan, some of the factors considered are the borrower’s current financial condition, historical and projected future credit performance, prospects for support from financially responsible guarantors, the estimated realizable value of any collateral and current economic trends.\n\nWe present information in the section below on the credit performance of our loan portfolio, including the key metrics we use in tracking changes in t",
+            "es1,6071,9112,955 (16)(35)\n\nIncome tax provision382451697 (15)(35)\n\nIncome from continuing operations, net of tax$1,225$1,460$2,258 (16)(35)\n\nCapital One Financial Corporation (COF)\n\n Year Ended December 31,Change\n\n(Dollars in millions, except as noted)2025202420232025 vs. 20242024 vs. 2023\n\nSelected performance metrics:\n\nAverage loans held for investment:\n\nAuto$80,009$74,692$76,067 7(2)\n\nRetail banking1,2161,2811,446 (5)(11)\n\nTotal consumer banking$81,225$75,973$77,513 7(2)\n\nAverage yield on loans held for investment(1)\n\n9.36%8.70%7.79%66bps9",
+            " credit performance of our loan portfolio, including the key metrics we use in tracking changes in the credit quality of our loan portfolio. See “Item 8. Financial Statements and Supplementary Data—Note 4—Loans” for additional credit quality information and see “Item 8. Financial Statements and Supplementary Data—Note 1—Summary of Significant Accounting Policies” for information on our accounting policies for delinquent and nonperforming loans, charge-offs and loan modifications and restructurings.\n\nCapital One Financial Corporation (COF)\n\nDel",
+            "sed by $2.2 billion to $7.5 billion in 2025 primarily driven by the impacts of the Transaction, an increase in the litigation accrual, continued investments in technology and higher marketing spend.\n\nCapital One Financial Corporation (COF)\n\nLoans Held for Investment: \n\n•Period-end loans held for investment increased by $6.7 billion to $84.8 billion as of December 31, 2025 from December 31, 2024 primarily driven by growth in our auto loan portfolio.\n\n•Average loans held for investment increased by $5.3 billion to $81.2 billion in 2025 compared ",
+            "economic conditions, and our economic and loss forecasts.\n\nCapital One Financial Corporation (COF)\n\n•Insufficient Asset Values: The collateral we have on secured loans could be insufficient to compensate us for credit losses. When customers default on their secured loans, we attempt to recover collateral where permissible and appropriate. However, the value of the collateral may not be sufficient to compensate us for the amount of the unpaid loan, and we may be unsuccessful in recovering the remaining balance from our customers. Decreases in r"
+        ]
+    },
+    {
+        "id": "cof_02",
+        "type": "factual",
+        "question": "What customer situations does Capital One say can lead to default?",
+        "ticker_filter": "COF",
+        "answer": "According to Capital One's 10-K filing, Item 1A: Risk Factors, customer situations that can lead to default include:\n\n* Increases in their payment obligations to other lenders resulting from a job loss, higher debt levels or rising cost of servicing debt, inflation outpacing wage growth, or restricted availability of credit generally [Source 1].\n* Increases in interest rates that increase debt service requirements for borrowers, which may adversely affect their ability to pay as contractually obligated [Source 2].",
+        "sources": [
+            {
+                "ticker": "COF",
+                "company": "Capital One Financial Corporation",
+                "section": "Item 1A: Risk Factors"
+            }
+        ],
+        "contexts": [
+            "or increases in their payment obligations to other lenders, whether as a result of a job loss, higher debt levels or rising cost of servicing debt, inflation outpacing wage growth, or by restricted availability of credit generally. We may fail to quickly identify and reduce our exposure to customers that are \n\nCapital One Financial Corporation (COF)\n\nlikely to default on their payment obligations, whether by closing credit lines or restricting authorizations. Our ability to manage credit risk also is affected by legal or regulatory changes (su",
+            "as customers or commercial clients default on their loans, maintain lower deposit \n\nCapital One Financial Corporation (COF)\n\nlevels or, in the case of credit card accounts, reduce demand for credit or (for existing customers) the level of borrowing or purchase activity. For example, increases in interest rates increase debt service requirements for some of our borrowers, which may adversely affect those borrowers’ ability to pay as contractually obligated. This could result in additional or fluctuating delinquencies or charge-offs and negative",
+            "ature Bank, see “Part I—Item 1. Business—Supervision and Regulation.” \n\nIn addition, we routinely execute transactions with counterparties in the financial services industry, including brokers and dealers, commercial banks, investment banks, mutual and hedge funds and other institutional clients, resulting in a significant credit concentration with respect to the financial services industry overall. As a result, defaults by, or even rumors or questions \n\nCapital One Financial Corporation (COF)\n\nabout, one or more financial services institution",
+            "ia) reports of alleged or perceived security vulnerabilities or incidents at Capital One or at our service providers, could result in significant legal and financial exposure, regulatory intervention, litigation, enforcement actions, remediation costs, card reissuance, inability to timely pay our debts (and consequently limit our access to future funding), operational disruptions, supervisory liability, damage to our reputation or loss of confidence in the security of our systems, products and services that could adversely affect our business.",
+            "nal risk and social factors may impact our results and damage our brand.\n\nOur ability to attract and retain customers is highly dependent upon the perceptions of consumer and commercial borrowers and deposit holders and other external perceptions of our products, services, business practices, workplace culture, compliance practices or our financial health. Capital One’s brands, including Discover, PULSE and Diners Club, are some of our most \n\nCapital One Financial Corporation (COF)\n\nimportant assets. Maintaining and enhancing our brands depend"
+        ]
+    },
+    {
+        "id": "cof_03",
+        "type": "factual",
+        "question": "What acquisition-related cost risk does Capital One mention involving Discover?",
+        "ticker_filter": "COF",
+        "answer": "According to Capital One Financial Corporation's 10-K filing (Item 1A: Risk Factors), Capital One has incurred and expects to incur a number of significant non-recurring costs associated with the integration of Discover, and notes that the expenses may be greater than anticipated due to factors that may be outside of their control.",
+        "sources": [
+            {
+                "ticker": "COF",
+                "company": "Capital One Financial Corporation",
+                "section": "Item 1A: Risk Factors"
+            }
+        ],
+        "contexts": [
+            "at were or may be later instituted against Discover or us relating to Discover’s previous actions, as well as ongoing expenses in defending and resolving these actions, and are subject to reputational and other risks associated with Discover’s previous actions. \n\nIf we fail to realize the anticipated benefits of the Transaction, or if those benefits take longer to realize than expected, it could have an adverse effect on our business, financial condition and results of operations. \n\nThe integration of Discover may have an adverse effect on our",
+            ", claims, government agency investigations and enforcement actions and other proceedings associated with Discover’s actions prior to the Transaction. For additional information regarding legal and regulatory proceedings in connection with the Transaction, refer to “Part II—Item 8. Financial Statements and Supplementary Data—Note 19—Commitments, Contingencies, Guarantees and Others.”\n\nWe continue to face significant uncertainty regarding the contingencies and liabilities we have assumed from Discover, and any significant or unanticipated liabil",
+            "of Discover, and the expenses may be greater than anticipated due to factors, some or all of which may be outside our control.\n\nWe have incurred and expect to incur a number of significant non-recurring costs associated with the integration of Discover. There are a large number of processes, policies, procedures, operations, technologies and systems that have been and will continue to be integrated, including purchasing, accounting and finance, payroll, cybersecurity, compliance, treasury management, customer management operations, vendor mana",
+            "latory risks if new issues, including issues that may be more severe than we anticipated before the closing of the Transaction, are identified as part of the integration of Discover or otherwise relating to Discover’s activities. We may also face compliance and regulatory risks if we introduce new or changed products and services or enter into new business arrangements with third-party service providers, alternative payment providers or other industry participants as a result of the Transaction. Heightened regulatory expectations and increased",
+            "ertain whether, when or on what terms and conditions, such approvals may be granted. Consequently, we may not obtain governmental or regulatory approval for a proposed acquisition on acceptable terms or at all, in which case we would not be able to complete the acquisition despite investing resources in pursuing it. \n\nFor additional risks related to the Transaction, see “Risks Relating to the Transaction and Integration of Discover.” \n\nReputational risk and social factors may impact our results and damage our brand.\n\nOur ability to attract and"
+        ]
+    },
+    {
+        "id": "cof_04",
+        "type": "factual",
+        "question": "What does Capital One say about competition for loans and deposits?",
+        "ticker_filter": "COF",
+        "answer": "According to Capital One Financial Corporation's 10-K filing (Item 1A: Risk Factors), regarding competition for loans and deposits, the company states:\n\n* **Competition for loans:** Competition could result in the origination of fewer loans, earning less on loans, or an increase in loans that perform below expectations. It may also require the company to offer lower interest rates or fees on lending products (Source 1).\n* **Competition for deposits:** Capital One faces strong and increasing competition in the direct banking market and expects continued competition in the deposit markets (including from financial institutions with tokenized deposit programs) as many other financial institutions increase their reliance on deposit funding. Aggressive pricing and the need to offer higher interest rates to attract or maintain deposits may adversely affect the retention of existing balances, the cost-efficient acquisition of new deposit funds, growth, profitability, and funding costs (Sources 1 and 2).",
+        "sources": [
+            {
+                "ticker": "COF",
+                "company": "Capital One Financial Corporation",
+                "section": "Item 1A: Risk Factors"
+            },
+            {
+                "ticker": "COF",
+                "company": "Capital One Financial Corporation",
+                "section": "Item 7: Management's Discussion and Analysis"
+            }
+        ],
+        "contexts": [
+            " customer relationships or require us to offer lower interest rates or fees on our lending products or higher interest rates on deposits. Competition for loans could result in origination of fewer loans, earning less on our loans or an increase in loans that perform below expectations. \n\nWe face strong and increasing competition in the direct banking market. Aggressive pricing throughout the industry may adversely affect the retention of existing balances and the cost-efficient acquisition of new deposit funds and may affect our growth and pro",
+            "ty to fund our business and our liquidity position also depend on our ability to attract or maintain deposits. Many other financial institutions have increased their reliance on deposit funding and, as such, we expect continued competition in the deposit markets, including with some financial institutions with tokenized deposit programs. We cannot predict how this competition will affect our costs. If we are required to offer higher interest rates to attract or maintain deposits, our funding costs will be adversely impacted. Although we have h",
+            "ance than we have. Competition may also intensify as participants in the payments industry merge or enter into joint ventures or other business combinations that compete with our products and services. We may not be able to compete effectively against these threats or respond or adapt to changes in consumer spending habits as effectively as our competitors. \n\nIn such a competitive environment, we may lose entire accounts or may lose account balances to competing firms, or we may find it more costly to maintain our existing customer base. Custo",
+            "ed in the Transaction and decreases in relevant benchmark interest rates. \n\nCapital One Financial Corporation (COF)\n\nLoans Held for Investment\n\nTotal loans held for investment consists of both unsecuritized loans and loans held in our consolidated trusts. Table 5 summarizes by segment the carrying value of our loans held for investment, the allowance for credit losses and net loan balance as of December 31, 2025 and 2024.\n\nTable 5: Loans Held for Investment \n\n December 31, 2025December 31, 2024\n\n(Dollars in millions)LoansAllowanceNet LoansLoan",
+            "ingencies and liabilities we have assumed from Discover, and any significant or unanticipated liability we may incur from these matters may adversely impact our business, financial condition and results of operations. \n\nCapital One Financial Corporation (COF)\n\nOther Business Risks\n\nWe face intense competition in all of our markets, which could have a material adverse effect on our business and results of operations.\n\nWe operate in a highly competitive environment across all of our lines of business, whether in making loans, attracting deposits"
+        ]
+    },
+    {
+        "id": "googl_01",
+        "type": "factual",
+        "question": "How much of Alphabet's 2025 revenue came from online advertising?",
+        "ticker_filter": "GOOGL",
+        "answer": "According to Alphabet Inc.'s 10-K filing, Item 7: Management's Discussion and Analysis, total Google advertising revenue for the year ended December 31, 2025, was $294,691 million ($294.691 billion).",
+        "sources": [
+            {
+                "ticker": "GOOGL",
+                "company": "Alphabet Inc.",
+                "section": "Item 7: Management's Discussion and Analysis"
+            },
+            {
+                "ticker": "GOOGL",
+                "company": "Alphabet Inc.",
+                "section": "Item 1A: Risk Factors"
+            }
+        ],
+        "contexts": [
+            " $4.2 billion from 2024 to 2025. The growth was driven by our direct response advertising products followed by our brand advertising products, both of which benefited from increased spending by our advertisers.\n\nGoogle Network\n\nGoogle Network revenues decreased $567 million from 2024 to 2025, primarily due to a decrease in AdSense revenues, partially offset by an increase in AdMob revenues. \n\nMonetization Metrics\n\nThe following table presents changes in monetization metrics for Google Search & other revenues (paid clicks and cost-per-click) an",
+            "he following table presents revenues by type (in millions):\n\nYear Ended December 31,\n\n20242025\n\nGoogle Search & other$198,084 $224,532 \n\nYouTube ads36,147 40,367 \n\nGoogle Network30,359 29,792 \n\nGoogle advertising264,590 294,691 \n\nGoogle subscriptions, platforms, and devices\n\n40,340 48,030 \n\nGoogle Services total304,930 342,721 \n\nGoogle Cloud43,229 58,705 \n\nOther Bets1,648 1,537 \n\nHedging gains (losses)211 (127)\n\nTotal revenues$350,018 $402,836 \n\nGoogle Services\n\nGoogle Advertising\n\nGoogle Search & other\n\nGoogle Search & other revenues increase",
+            "on Form 10-K. \n\nThe following section generally discusses 2025 results compared to 2024 results. Discussion of 2024 results compared to 2023 results to the extent not included in this report can be found in Item 7 of our 2024 Annual Report on Form 10-K.\n\nUnderstanding Alphabet’s Financial Results\n\nAlphabet is a collection of businesses — the largest of which is Google. We report Google in two segments, Google Services and Google Cloud, and all non-Google businesses collectively as Other Bets. Supporting these businesses, we have centralized ce",
+            " billion EC fine accrued in the third quarter of 2025 and a $1.4 billion legal accrual made in the second quarter of 2025.\n\n35. \n\nAlphabet Inc.\n\nSegment Profitability\n\nWe report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they represent Alphabet-level activities. For further details on our segments, see Part I, Item 1 Business and Note 15 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.\n\nThe fo",
+            " increases our ability to enter new categories and launch \n\n11. \n\nAlphabet Inc.\n\nnew and innovative products and services that better serve the needs of our users, advertisers, customers, content providers, and other partners. Our brands have been, and may in the future be, harmed by a number of factors, including, among others, reputational issues, third-party content shared on our platforms, data privacy and security issues and developments, issues in delivering age-appropriate experiences to minors, and product or technical performance fail"
+        ]
+    },
+    {
+        "id": "googl_02",
+        "type": "factual",
+        "question": "What trademark risk does Alphabet describe for the word Google?",
+        "ticker_filter": "GOOGL",
+        "answer": "According to Alphabet Inc.'s 10-K filing (Item 1A: Risk Factors), the trademark risk associated with the word \"Google\" is that it could become so commonly used that it becomes synonymous with the word \"search.\" Additionally, while some courts have ruled that \"Google\" is a protectable trademark, there is a risk that other courts, particularly those outside of the US, may reach a different determination, which could result in the company losing protection for this trademark.",
+        "sources": [
+            {
+                "ticker": "GOOGL",
+                "company": "Alphabet Inc.",
+                "section": "Item 1A: Risk Factors"
+            }
+        ],
+        "contexts": [
+            " intellectual property as trade secrets. The confidentiality of such trade secrets and other sensitive information could be compromised, which could cause us to lose the competitive advantage resulting from these trade secrets. We also face risks associated with our trademarks. For example, there is a risk that the word \"Google\" could become so commonly used that it becomes synonymous with the word \"search.\" Some courts have ruled that \"Google\" is a protectable trademark, but it is possible that other courts, particularly those outside of the ",
+            "ve to do business and harm our financial condition and operating results. \n\nOur business depends on strong brands, and failing to maintain and enhance our brands would hurt our ability to expand our base of users, advertisers, customers, content providers, and other partners. \n\nOur strong brands have significantly contributed to the success of our business. Maintaining and enhancing the brands within Google Services, Google Cloud, and Other Bets increases our ability to enter new categories and launch \n\n11. \n\nAlphabet Inc.\n\nnew and innovative ",
+            " increases our ability to enter new categories and launch \n\n11. \n\nAlphabet Inc.\n\nnew and innovative products and services that better serve the needs of our users, advertisers, customers, content providers, and other partners. Our brands have been, and may in the future be, harmed by a number of factors, including, among others, reputational issues, third-party content shared on our platforms, data privacy and security issues and developments, issues in delivering age-appropriate experiences to minors, and product or technical performance fail",
+            "is a protectable trademark, but it is possible that other courts, particularly those outside of the US, may reach a different determination. If this happens, we could lose protection for this trademark. \n\nAny significant impairment of our intellectual property rights could harm our business and ability to compete. Protecting our intellectual property rights is costly and time consuming; any increase in unauthorized use could make it more expensive to do business and harm our financial condition and operating results. \n\nOur business depends on ",
+            " otherwise, which could \n\n20. \n\nAlphabet Inc.\n\nresult in loss of revenues and harm our business. Moreover, intellectual property indemnities provided to us by our suppliers, when obtainable, may not cover all damages and losses suffered by us and our customers arising from intellectual property infringement claims. Furthermore, in connection with our divestitures, we have agreed, and may in the future agree, to provide indemnification for certain potential liabilities, including those associated with intellectual property claims. Regardless of"
+        ]
+    },
+    {
+        "id": "googl_03",
+        "type": "factual",
+        "question": "What share of Alphabet's 2025 consolidated revenues were international?",
+        "ticker_filter": "GOOGL",
+        "answer": "According to Alphabet Inc.'s 10-K filing (Item 7: Management's Discussion and Analysis), the answer is not found in provided filings.",
+        "sources": [],
+        "contexts": [
+            "Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and Latin America (\"Other Americas\").\n\nFor additional information, see Note 2 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.\n\nCosts and Expenses\n\n34. \n\nAlphabet Inc.\n\nCost of Revenues\n\nThe following table presents cost of revenues, including TAC (in millions, except percentages):\n\n Year Ended December 31,\n\n 20242025\n\nTAC$54,900 $59,926 \n\nOther cost of revenues91,406 102,609 \n\nTotal cost of reve",
+            "ssume ownership of the power generating assets.\n\n38. \n\nAlphabet Inc.\n\nFor additional information on leases, see Note 4 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.\n\nFinancing\n\nAs of December 31, 2025, we had senior unsecured notes outstanding with a total carrying value of $48.5 billion, of which $2.0 billion was short-term. The associated short-term and long-term future interest payments were $1.8 billion and $35.7 billion, respectively. \n\nDuring 2025, we issued $22.5 billion of US d",
+            "on Form 10-K. \n\nThe following section generally discusses 2025 results compared to 2024 results. Discussion of 2024 results compared to 2023 results to the extent not included in this report can be found in Item 7 of our 2024 Annual Report on Form 10-K.\n\nUnderstanding Alphabet’s Financial Results\n\nAlphabet is a collection of businesses — the largest of which is Google. We report Google in two segments, Google Services and Google Cloud, and all non-Google businesses collectively as Other Bets. Supporting these businesses, we have centralized ce",
+            " billion EC fine accrued in the third quarter of 2025 and a $1.4 billion legal accrual made in the second quarter of 2025.\n\n35. \n\nAlphabet Inc.\n\nSegment Profitability\n\nWe report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they represent Alphabet-level activities. For further details on our segments, see Part I, Item 1 Business and Note 15 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.\n\nThe fo",
+            "on, see Note 10 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.\n\n39. \n\nAlphabet Inc.\n\nTaxes\n\nAs of December 31, 2025, we had long-term income taxes payable of $9.5 billion primarily related to unrecognized tax benefits. The timing and amount of any payment related to these unrecognized tax benefits are uncertain and cannot be estimated.\n\nPurchase Commitments and Other Contractual Obligations\n\nWe have material purchase commitments and other contractual obligations primarily related to ene"
+        ]
+    },
+    {
+        "id": "googl_04",
+        "type": "factual",
+        "question": "What custom chips does Alphabet mention in connection with AI infrastructure?",
+        "ticker_filter": "GOOGL",
+        "answer": "According to Alphabet's 10-K filing (Item 1A: Risk Factors), custom chips are not found in provided filings.",
+        "sources": [],
+        "contexts": [
+            "mpetitive, rapidly evolving, and require significant investment, including technical infrastructure, development, and operational costs. Our ability to deploy certain AI technologies critical for our products and services and for our business strategy may depend on the availability and pricing of third-party equipment and other technical infrastructure operations costs, including network capacity, energy, and equipment costs. Additionally, other companies may develop \n\n10. \n\nAlphabet Inc.\n\nAI products and technologies that are similar or super",
+            " companies may develop \n\n10. \n\nAlphabet Inc.\n\nAI products and technologies that are similar or superior to our technologies or more cost-effective to develop or deploy. Other companies may also have (or in the future may obtain) patents or other proprietary rights that would prevent, limit, or interfere with our ability to make, use, or sell our own AI products and services.\n\nOur financial condition and operating results may also suffer if our products and services are not responsive in a timely manner to the evolving needs and desires of our ",
+            " increases our ability to enter new categories and launch \n\n11. \n\nAlphabet Inc.\n\nnew and innovative products and services that better serve the needs of our users, advertisers, customers, content providers, and other partners. Our brands have been, and may in the future be, harmed by a number of factors, including, among others, reputational issues, third-party content shared on our platforms, data privacy and security issues and developments, issues in delivering age-appropriate experiences to minors, and product or technical performance fail",
+            "stems could subject us to competitive harm, regulatory action, legal liability (including under new and proposed legislation and regulations), new applications of existing data protection, privacy, intellectual property, and other laws, and brand or reputational harm. \n\nSome uses of AI will present ethical issues and may have broad effects on society. In order to implement AI responsibly and minimize unintended harmful effects, we have already devoted and will continue to invest significant resources to develop, test, and maintain our products",
+            " models on which those systems are based. Various countries, including Brazil, India, Japan, South Korea, Singapore, and Vietnam, have also enacted or are considering enacting regulations focused on AI. In the US, an increasing amount of legislative and regulatory activity regarding AI is taking place at the state level. In 2025, state legislatures considered more than 1,000 AI-related bills, including on fundamental model research and development, synthetic media, algorithmic decision-making, and many others, and took a variety of approaches "
+        ]
+    },
+    {
+        "id": "googl_05",
+        "type": "factual",
+        "question": "How much did Google Cloud revenues increase from 2024 to 2025?",
+        "ticker_filter": "GOOGL",
+        "answer": "According to Alphabet Inc.'s 10-K filing (Item 7: Management's Discussion and Analysis), Google Cloud revenues increased $15.5 billion from 2024 to 2025.",
+        "sources": [
+            {
+                "ticker": "GOOGL",
+                "company": "Alphabet Inc.",
+                "section": "Item 7: Management's Discussion and Analysis"
+            }
+        ],
+        "contexts": [
+            "x, and changes in foreign currency exchange rates.\n\nGoogle Subscriptions, Platforms, and Devices\n\nGoogle subscriptions, platforms, and devices revenues increased $7.7 billion from 2024 to 2025. The growth was primarily driven by an increase in subscriptions revenues. This increase was primarily due to the contribution from growth in paid subscriptions across both YouTube services and Google One.\n\nGoogle Cloud\n\nGoogle Cloud revenues increased $15.5 billion from 2024 to 2025, primarily driven by growth in Google Cloud Platform largely from infra",
+            ".5 billion from 2024 to 2025, primarily driven by growth in Google Cloud Platform largely from infrastructure and platform services.\n\nRevenues by Geography\n\nThe following table presents revenues by geography as a percentage of revenues, determined based on the addresses of our customers:\n\n Year Ended December 31,\n\n 20242025\n\nUnited States49 %48 %\n\nEMEA(1)\n\n29 %29 %\n\nAPAC(1)\n\n16 %17 %\n\nOther Americas(1)\n\n6 %6 %\n\nHedging gains (losses)0 %0 %\n\n(1) Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and La",
+            "arily reflect expenses related to our shared AI research and development.\n\nGoogle Services\n\nGoogle Services operating income increased $18.1 billion from 2024 to 2025. The increase in operating income was primarily driven by an increase in revenues, partially offset by an increase in expenses related to legal and other matters, TAC, and content acquisition costs.\n\nGoogle Cloud\n\nGoogle Cloud operating income increased $7.8 billion from 2024 to 2025. The increase in operating income was primarily driven by an increase in revenues, partially offs",
+            " $4.2 billion from 2024 to 2025. The growth was driven by our direct response advertising products followed by our brand advertising products, both of which benefited from increased spending by our advertisers.\n\nGoogle Network\n\nGoogle Network revenues decreased $567 million from 2024 to 2025, primarily due to a decrease in AdSense revenues, partially offset by an increase in AdMob revenues. \n\nMonetization Metrics\n\nThe following table presents changes in monetization metrics for Google Search & other revenues (paid clicks and cost-per-click) an",
+            "\nGoogle Services\n\nGoogle Advertising\n\nGoogle Search & other\n\nGoogle Search & other revenues increased $26.4 billion from 2024 to 2025. The overall growth was driven by interrelated factors including increases in search queries resulting from growth in user adoption and usage on mobile devices; growth in advertiser spending; and improvements we have made in ad formats and delivery.\n\n33. \n\nAlphabet Inc.\n\nYouTube ads\n\nYouTube ads revenues increased $4.2 billion from 2024 to 2025. The growth was driven by our direct response advertising products f"
+        ]
+    },
+    {
+        "id": "cmp_01",
+        "type": "compare",
+        "question": "How do Walmart and Capital One each describe competition in their businesses?",
+        "ticker_filter": null,
+        "answer": "According to Walmart's 10-K filing (Item 1A: Risk Factors), Walmart describes competition as coming from strong competitors including \"other retailers, wholesale club operators, omnichannel retailers and other businesses which could materially adversely affect our financial performance,\" noting that each of its segments competes for \"customers, employees, digital prominence, products and services and in other important aspects of its business with many other local, regional, national and global physical, eCommerce and omnichannel retailers, social commerce platforms, wholesale club operators and retail intermediaries, and emerging agentic shopping tools.\"\n\nRegarding Capital One, information about Capital One is not found in provided filings.",
+        "sources": [],
+        "contexts": [
+            " subject us to legislative, judicial, accounting, legal, regulatory, tax, political and economic risks and conditions specific to the countries or regions in which we operate, which could materially adversely affect our business or financial performance.\n\nIn addition to our U.S. operations, we operate retail and eCommerce businesses in Africa, Canada, Central America, Chile, China, India and Mexico.\n\nDuring fiscal 2026, our Walmart International operations generated approximately 19% of our consolidated net sales. Walmart International's opera",
+            "%6.3 %13.5 %\n\nMembership and other income1,565 1,478 1,408 \n\nGross profit27,847 26,618 24,810 \n\nOperating expenses\n\n24,309 22,595 21,309 \n\nOperating income$5,103 $5,501 $4,909 \n\nPercentage of net sales\n\nGross profit21.4 %21.8 %21.6 %\n\nOperating expenses\n\n18.6 %18.5 %18.6 %\n\nOperating income3.9 %4.5 %4.3 %\n\nRetail unit counts at period end5,743 5,566 5,402 \n\nRetail square feet at period end278 274 274 \n\nNet sales for the Walmart International segment increased $8.5 billion or 7.0% and $7.2 billion or 6.3% for fiscal 2026 and 2025, respectively,",
+            "We face strong competition from other retailers, wholesale club operators, omnichannel retailers and other businesses which could materially adversely affect our financial performance.\n\nEach of our segments competes for customers, employees, digital prominence, products and services and in other important aspects of its business with many other local, regional, national and global physical, eCommerce and omnichannel retailers, social commerce platforms, wholesale club operators and retail intermediaries, and emerging agentic shopping tools and",
+            " operations generated approximately 19% of our consolidated net sales. Walmart International's operations in various countries also source goods and services from other countries. Our future operating results in these countries could be negatively affected by a variety of factors, most of which are beyond our control. These factors include political conditions, including political instability, local and global economic conditions; legal and regulatory constraints, such as regulation of product and service offerings including regulatory restric",
+            "hannel business model. This includes increasing comparable store and club sales through increasing membership at Sam's Club U.S. and through Walmart+, accelerating eCommerce sales growth and expansion of omnichannel initiatives that complement our strategy.\n\nComparable sales is a metric that indicates the performance of our existing stores and clubs by measuring the change in sales for such stores and clubs, including eCommerce sales, for a particular period over the corresponding period in the previous year. Walmart's definition of comparable"
+        ]
+    },
+    {
+        "id": "cmp_02",
+        "type": "compare",
+        "question": "What advertising- or consumer-related risks do Alphabet and Walmart each discuss?",
+        "ticker_filter": null,
+        "answer": "According to Alphabet Inc.'s 10-K filing (Item 1A: Risk Factors), Alphabet discusses risks related to generating a significant portion of its revenues from advertising, including reduced spending by advertisers, a loss of partners, and shifts in online advertising. \n\nRegarding Walmart, the provided context does not contain any information about Walmart's risks; therefore, information regarding Walmart is not found in provided filings.",
+        "sources": [],
+        "contexts": [
+            " increases our ability to enter new categories and launch \n\n11. \n\nAlphabet Inc.\n\nnew and innovative products and services that better serve the needs of our users, advertisers, customers, content providers, and other partners. Our brands have been, and may in the future be, harmed by a number of factors, including, among others, reputational issues, third-party content shared on our platforms, data privacy and security issues and developments, issues in delivering age-appropriate experiences to minors, and product or technical performance fail",
+            "ol them or their practices. Violations of law or unethical business practices could result in supply chain disruptions, canceled orders, harm to key relationships, and damage to our reputation. Their failure to procure necessary license rights to intellectual property could affect our ability to sell our products or services and expose us to litigation or financial claims. \n\n12. \n\nAlphabet Inc.\n\nInterruption to, interference with, or failure of our complex information technology and communications systems could hurt our ability to effectively ",
+            "ur efforts to enforce our policies or otherwise prevent or remediate any such incidents. Any of the foregoing developments may negatively affect user trust and engagement, harm our reputation and brands, require us to change our business practices in ways that harm our business operations, and adversely affect our business and financial results. Any such developments may also subject us to additional litigation and \n\n16. \n\nAlphabet Inc.\n\nregulatory inquiries, which could result in monetary penalties and damages, divert management's time and at",
+            "Table of Contents\n\nAlphabet Inc.\n\nITEM 1A.RISK FACTORS\n\nOur operations and financial results are subject to various risks and uncertainties, including but not limited to those described below, which could harm our business, reputation, financial condition, and operating results, and may affect the trading price and price volatility of our Class A and Class C stock.\n\nRisks Specific to our Company\n\nWe generate a significant portion of our revenues from advertising. Reduced spending by advertisers, a loss of partners, shifts in online advertising",
+            " also significantly increase the costs of attracting and retaining customers, increase susceptibility to litigation and enforcement actions or other adverse effects on our business, results of operations and financial condition.\n\nNegative public opinion or damage to our brand could also result from actual or alleged conduct in any number of activities or circumstances, including lending and payment network practices, regulatory compliance, cyber-attacks or other security incidents, accounting issues, corporate governance and sales and marketin"
+        ]
+    },
+    {
+        "id": "oos_01",
+        "type": "oos",
+        "question": "Who is the CEO of Tesla?",
+        "ticker_filter": null,
+        "answer": "According to Alphabet Inc.'s 10-K filing, not found in provided filings.",
+        "sources": [],
+        "contexts": [
+            "d of Directors or the resignation, death, or removal of a director.\n\n•Our stockholders may not act by written consent, which makes it difficult to take certain actions without holding a stockholders' meeting.\n\n•Our certificate of incorporation prohibits cumulative voting in the election of directors. This limits the ability of minority stockholders to elect director candidates.\n\n•Stockholders must provide advance notice to nominate individuals for election to the Board of Directors or to propose matters that can be acted upon at a stockholders",
+            "ses.\n\n•OI&E of $29.8 billion for the year ended December 31, 2025 included net gains on equity securities of $24.1 billion, primarily related to unrealized gains on our non-marketable equity securities.\n\n•Other Bets operating loss of $7.5 billion for the year ended December 31, 2025 included a $2.1 billion employee compensation charge recognized in the fourth quarter for Waymo, primarily reflected in research and development expenses, based on estimated stock valuation. In February 2026, Waymo announced an investment round of $16.0 billion, th",
+            "e for our Board of Directors to issue preferred stock with voting or other rights or preferences that could impede the success of any attempt to acquire us. \n\nAs a Delaware corporation, we are also subject to certain Delaware anti-takeover provisions. Under Delaware law, a corporation may not engage in a business combination with any holder of 15% or more of its outstanding voting stock unless the holder has held the stock for three years or, among other things, the Board of Directors has approved the transaction. Our Board of Directors could ",
+            "ssume ownership of the power generating assets.\n\n38. \n\nAlphabet Inc.\n\nFor additional information on leases, see Note 4 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.\n\nFinancing\n\nAs of December 31, 2025, we had senior unsecured notes outstanding with a total carrying value of $48.5 billion, of which $2.0 billion was short-term. The associated short-term and long-term future interest payments were $1.8 billion and $35.7 billion, respectively. \n\nDuring 2025, we issued $22.5 billion of US d",
+            "he following table presents revenues by type (in millions):\n\nYear Ended December 31,\n\n20242025\n\nGoogle Search & other$198,084 $224,532 \n\nYouTube ads36,147 40,367 \n\nGoogle Network30,359 29,792 \n\nGoogle advertising264,590 294,691 \n\nGoogle subscriptions, platforms, and devices\n\n40,340 48,030 \n\nGoogle Services total304,930 342,721 \n\nGoogle Cloud43,229 58,705 \n\nOther Bets1,648 1,537 \n\nHedging gains (losses)211 (127)\n\nTotal revenues$350,018 $402,836 \n\nGoogle Services\n\nGoogle Advertising\n\nGoogle Search & other\n\nGoogle Search & other revenues increase"
+        ]
+    },
+    {
+        "id": "oos_02",
+        "type": "oos",
+        "question": "What was Apple's iPhone revenue last quarter?",
+        "ticker_filter": null,
+        "answer": "not found in provided filings",
+        "sources": [],
+        "contexts": [
+            " operating, selling, general and administrative expenses.\n\nOur total revenues increased $32.2 billion or 4.7% and $32.9 billion or 5.1% for fiscal 2026 and 2025, respectively, when compared to the previous fiscal year. These increases in revenues were primarily due to increases in net sales, which increased $31.9 billion or 4.7% and $31.9 billion or 5.0% for fiscal 2026 and 2025, respectively, when compared to the previous fiscal year. The increases were primarily due to strong positive comparable sales across our U.S. segments and internation",
+            "\n\n(1) For additional information on the calculation of diluted net income per share, see Note 12 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.\n\n•Revenues were $402.8 billion, an increase of 15% year over year, primarily driven by an increase in Google Services revenues of $37.8 billion, or 12%, and an increase in Google Cloud revenues of $15.5 billion, or 36%.\n\n•Cost of revenues was $162.5 billion, an increase of 11% year over year, primarily driven by increases in TAC, content acquisi",
+            "centages):\n\n Year Ended December 31,\n\n 20242025\n\nSales and marketing expenses$27,808 $28,693 \n\nSales and marketing expenses as a percentage of revenues8 %7 %\n\nSales and marketing expenses increased $885 million from 2024 to 2025, primarily driven by an increase in advertising and promotional activities of $1.2 billion, partially offset by a decrease in employee compensation expenses of $214 million.\n\nGeneral and Administrative\n\nThe following table presents general and administrative expenses (in millions, except percentages):\n\n Year Ended Dece",
+            " billion EC fine accrued in the third quarter of 2025 and a $1.4 billion legal accrual made in the second quarter of 2025.\n\n35. \n\nAlphabet Inc.\n\nSegment Profitability\n\nWe report our segment results as Google Services, Google Cloud, and Other Bets. Additionally, certain costs are not allocated to our segments because they represent Alphabet-level activities. For further details on our segments, see Part I, Item 1 Business and Note 15 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.\n\nThe fo",
+            "t a faster rate than net sales. \n\nFiscal Years Ended January 31,\n\n(Amounts in millions, except unit counts)20262025\n\nNet sales$706,413 $674,538 \n\nPercentage change from comparable period4.7 %5.0 %\n\nGross profit(1) as a percentage of net sales\n\n24.2 %24.1 %\n\nOperating expenses as a percentage of net sales\n\n20.9 %20.7 %\n\nOperating income$29,825 $29,348 \n\nOperating income as a percentage of net sales4.2 %4.4 %\n\n(1)Gross profit defined as net sales less cost of sales.\n\nGross profit as a percentage of net sales (\"gross profit rate\") increased 8 and"
+        ]
+    }
+]

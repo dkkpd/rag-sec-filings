@@ -98,6 +98,6 @@ Generation quality (citations, faithfulness, out-of-scope refusal) still needs t
 - MiniLM is a small encoder; dense retrieval misses when the question wording is far from the filing.
 - No hybrid search, reranker, or query rewriting.
 - Chunking is based on just character limits, data such as financial tables and so can get lost when chunking.
+- Gemini can still hallucinate and make up answers even from the provided sources. It's still up to the Gemini model to produce "not found" phrasing.
 - HTML heading-based section extract can miss or over-include content on messy 10-Ks.
-- Gemini can still hallucinate; empty sources only apply when the model’s own “not found” phrasing is detected.
-- API only. No frontend or deployments yet.
+- API only. No frontend or deployments **yet**.

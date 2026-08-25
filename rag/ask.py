@@ -100,7 +100,8 @@ def ask(question, ticker=None):
     return {
         "question": question,
         "answer": interaction.output_text,
-        "sources": sources
+        "sources": sources,
+        "context": [chunk["text"] for chunk in chunks]
     }
 
 if __name__ == "__main__":
@@ -122,5 +123,6 @@ if __name__ == "__main__":
             print("- No sources found in provided filings.")
         for source in result['sources']:
             print(f"- {source['company']} ({source['ticker']}) | {source['section']}")
+        print(f"Number of context chunks retrieved: {len(result['context'])}")
 
 
