@@ -90,11 +90,33 @@ A factual hit requires the gold substring in a retrieved chunk, plus the expecte
 - Some gold strings appear more than once in a filing (for example a Discover-related sentence in Capital One Item 1A). Substring matching then needs a more unique span.
 - Chunking is **character-based**, not paragraph-based. Neighboring text can sit in the previous or next window.
 
-Generation quality (citations, faithfulness, out-of-scope refusal) still needs to be evaluated
+## Generation Evaluation
+I ran some hand-labeled questions through the full path, saved their traces to eval/generation_traces.json, then scored the generation with DeepEval `FaithfulnessMetric` (answer vs retreived chunks, Gemini LLM as judge). Out of scope items are checked seperately for refusal.
+
+Run the following from repo root to get the generation evaluation:
+```powershell
+python eval/dump_generation_traces.py
+python eval/score_generation.py
+```
+*Note that score_generation has a timer delay of 15 secs per call to avoid hitting the free Gemini API limits. Feel free to delete or modify based on your API limits*
+
+**Results**
+| Check | Result |
+| --- | --- |
+| Mean faithfulness (17 in-scope) | **0.97** |
+| Out-of-scope refuse | **2 / 2** |
+
+*Faithfulness measures whether the answer stays grounded in the **retrieved** chunks. The answer can be faithfulness and still incorrect if retrieval fails. Faithfulness should not be confused for accuracy*
+
+For every in-scope answer that said `not found in provided filings`, the gold span (or both companies, for compare) was **missing** from the top-5 contexts. There was **no** case where retrieval had the gold text and the model still refused. Those refuses line up with retrieval misses (and expected OOS behavior), not with the generator ignoring good context.
+Compare queries still often retrieve only one company; the model then answers that side and refuses the other. 
+
+The questions in `questions.json` are hand-picked with the answers actually in the filings. Therefore, all the questions besides from the out of scope ones should all have answers; none of them should result in a 'not found in provided filings'. However, we still have some of the questions resulting in exactly that result, which indicates a bottleneck in retreival, not in generation. After all, the gemini model only knows what retreival feeds it.
+
 
 ## Limitations
 
-- Three issuers, two 10-K items, latest filing only. Not much data, but a good starting point.
+- Three issuers, two 10-K items, latest filing only. Not much data, just a starting point.
 - MiniLM is a small encoder; dense retrieval misses when the question wording is far from the filing.
 - No hybrid search, reranker, or query rewriting.
 - Chunking is based on just character limits, data such as financial tables and so can get lost when chunking.
