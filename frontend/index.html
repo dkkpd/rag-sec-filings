@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEC Filings RAG</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="header">
+      <h1>SEC Filings RAG</h1>
+      <p class="subtitle">
+        Ask questions about 10-K filings for Walmart, Capital One, and Alphabet.
+      </p>
+    </header>
+
+    <section class="card query-card">
+      <label class="label" for="question">Question</label>
+      <textarea
+        id="question"
+        class="textarea"
+        rows="4"
+        placeholder="What risks does Walmart describe in its omnichannel strategy?"
+      ></textarea>
+
+      <div class="controls">
+        <div class="field">
+          <label class="label" for="company">Company</label>
+          <select id="company" class="select">
+            <option value="">All companies</option>
+            <option value="WMT">Walmart (WMT)</option>
+            <option value="COF">Capital One (COF)</option>
+            <option value="GOOGL">Alphabet (GOOGL)</option>
+          </select>
+        </div>
+
+        <button type="button" class="button">Ask</button>
+      </div>
+    </section>
+
+    <section class="card answer-card">
+      <h2 class="section-title">Answer</h2>
+      <div class="answer-box">
+        <p class="placeholder">Your answer will appear here.</p>
+      </div>
+    </section>
+
+    <section class="card sources-card">
+      <h2 class="section-title">Sources</h2>
+      <ul class="sources-list">
+        <li class="source-item placeholder-item">
+          <span class="source-company">—</span>
+          <span class="source-section">Cited sections will appear here.</span>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p>Item 1A (Risk Factors) and Item 7 (MD&amp;A) only.</p>
+    </footer>
+  </main>
+</body>
+</html>
