@@ -6,7 +6,7 @@ load_dotenv()
 client=genai.Client()
 
 interaction = client.interactions.create(
-    model="gemini-3.7-flash",
+    model="gemini-3.5-flash-lite",
     input="Reply with just 'gemini api call is working' and nothing else"
 )
 
