@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ```
 
 **Environment**
-- Create a `.env` file in the project root with your Gemini API key. The Google GenAI client reads `GOOGLE_API_KEY`.
+- Create a `.env` file in the project root with your Gemini API key. The Google GenAI client reads `GEMINI_API_KEY`.
 - EDGAR identity is set in `ingestion/01_fetch_sections.py` (`set_identity`). Use your own name and email if you re-run fetch.
 
 **Build the vector store (from the repo root)**
@@ -91,7 +91,7 @@ A factual hit requires the gold substring in a retrieved chunk, plus the expecte
 - Chunking is **character-based**, not paragraph-based. Neighboring text can sit in the previous or next window.
 
 ## Generation Evaluation
-I ran some hand-labeled questions through the full path, saved their traces to eval/generation_traces.json, then scored the generation with DeepEval `FaithfulnessMetric` (answer vs retreived chunks, Gemini LLM as judge). Out of scope items are checked seperately for refusal.
+I ran some hand-labeled questions through the full path, saved their traces to `eval/generation_traces.json`, then scored the generation with DeepEval `FaithfulnessMetric` (answer vs retreived chunks, Gemini LLM as judge). Out of scope items are checked seperately for refusal.
 
 Run the following from repo root to get the generation evaluation:
 ```powershell
