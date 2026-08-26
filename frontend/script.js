@@ -11,7 +11,7 @@ function setLoading(loading) {
   askBtn.textContent = loading ? "Asking…" : "Ask";
 }
 
-function showAnswer(text, isError) {
+function showAnswer(text, isError=false) {
   answerBox.innerHTML = "";
   const p = document.createElement("p");
   p.textContent = text;
@@ -64,16 +64,18 @@ async function ask() {
       body: JSON.stringify({ query, ticker }),
     });
 
-    if (!response.ok) {
-      throw new Error(`Request failed (${response.status})`);
+    if (response.ok) {
+      const data = await response.json();
+      showAnswer(data.answer || "No answer returned.");
+      showSources(data.sources);
+    } else if (response.status === 429) {
+      showAnswer("Rate limit exceeded. Please try again later.");
+    } else {
+      showAnswer(`Error: ${response.status} ${response.statusText}`);
     }
-
-    const data = await response.json();
-    showAnswer(data.answer || "No answer returned.");
-    showSources(data.sources);
   } catch (err) {
     showAnswer(
-      "Could not reach the API. Start the server with: uvicorn main:app --reload",
+      `Error: ${err.message || "An error occurred while fetching the answer."}`,
       true
     );
   } finally {

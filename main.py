@@ -1,9 +1,18 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from rag.ask import ask as run_ask
+from slowapi import Limiter
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
+
+
+
+limiter = Limiter(key_func=get_remote_address)
 
 app = FastAPI()
+app.state.limiter = limiter
 
 app.add_middleware(
     CORSMiddleware,
@@ -12,12 +21,20 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.exception_handler(RateLimitExceeded)
+def rate_limit_exceeded_handler(request, exc):
+    return JSONResponse(
+        status_code=429,
+        content={"message": "Rate limit exceeded. Please try again later."},
+    )
+
 class AskRequest(BaseModel):
     query: str
     ticker: str | None = None
 
 @app.post("/ask")
-def ask_endpoint(ask_request: AskRequest):
+@limiter.limit("10/minute")
+def ask_endpoint(request: Request,ask_request: AskRequest):
     query = ask_request.query
     ticker = ask_request.ticker
 
