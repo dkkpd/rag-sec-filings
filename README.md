@@ -135,7 +135,7 @@ python eval/score_generation.py
 | Mean faithfulness (17 in-scope) | **0.97** |
 | Out-of-scope refuse | **2 / 2** |
 
-*Faithfulness measures whether the answer stays grounded in the **retrieved** chunks. The answer can be faithfulness and still incorrect if retrieval fails. Faithfulness should not be confused for accuracy*
+*Faithfulness measures whether the answer stays grounded in the **retrieved** chunks. The answer can be faithful and still incorrect if retrieval fails. Faithfulness should not be confused for accuracy*
 
 For every in-scope answer that said `not found in provided filings`, the gold span (or both companies, for compare) was **missing** from the top-5 contexts. There was **no** case where retrieval had the gold text and the model still refused. Those refuses line up with retrieval misses (and expected OOS behavior), not with the generator ignoring good context.
 Compare queries still often retrieve only one company; the model then answers that side and refuses the other. 
