@@ -55,6 +55,35 @@ uvicorn main:app --reload
 
 `ticker` is optional. Use `null` (or omit it) to search all three companies.
 
+## Docker (API only)
+
+The Docker image runs the FastAPI API only. It installs `docker-requirements.txt` (not the full `requirements.txt`). Ingest is not run inside the container.
+
+**Prerequisites**
+- Complete the ingest steps above so `chroma_db/` exists on your machine (`chroma_db/` is not in git).
+- A `.env` file in the project root with your Gemini API key (same as local setup).
+
+**Build the image** (from the repo root)
+```
+docker build -t rag-sec-filings .
+```
+
+**Run the container**
+
+Mount your local `chroma_db/` into the container and pass your API key:
+```
+docker run -p 8000:8000 --env-file .env -v ./chroma_db:/app/chroma_db rag-sec-filings
+```
+
+Windows (PowerShell), if `./chroma_db` does not resolve:
+```
+docker run -p 8000:8000 --env-file .env -v "${PWD}/chroma_db:/app/chroma_db" rag-sec-filings
+```
+
+The API is at `http://localhost:8000`, running on Docker.
+
+Open `frontend/index.html` in a browser to use the UI (it calls `http://127.0.0.1:8000/ask`).
+
 ## Pipeline
 
 1. **Fetch** — edgartools pulls the latest 10-K HTML for WMT, COF, and GOOGL. Item 1A and Item 7 are extracted by HTML heading.
@@ -123,3 +152,15 @@ The questions in `questions.json` are hand-picked with the answers actually in t
 - Gemini can still hallucinate and make up answers even from the provided sources. It's still up to the Gemini model to produce "not found" phrasing.
 - HTML heading-based section extract can miss or over-include content on messy 10-Ks.
 - API only. No frontend or deployments **yet**.
+
+## Future improvements
+
+These were intentionally out of scope for the MVP (see `plan.md`). They are known next steps, not hidden gaps.
+
+- **More companies** beyond WMT, COF, and GOOGL
+- **10-Qs** and year-over-year comparison across filings
+- **Full financial statement parsing** (Item 8)
+- **Reranking** (e.g. cross-encoder on top of dense retrieval)
+- **pgvector swap** or response caching for production
+- **Paragraph- or heading-aware chunking** instead of fixed character windows — compare against the current 549/100 baseline on the same eval set
+- **Deployed demo** — host the API and static frontend with a live link

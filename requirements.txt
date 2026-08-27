@@ -1,9 +1,17 @@
-edgartools
-sentence-transformers
-chromadb
-google-genai
-python-dotenv
-beautifulsoup4
+# API
 fastapi
 uvicorn
+slowapi
+google-genai
+python-dotenv
+
+# RAG
+sentence-transformers
+chromadb
+
+# Ingest (01–04)
+edgartools
+beautifulsoup4
+
+# Eval (optional locally)
 deepeval

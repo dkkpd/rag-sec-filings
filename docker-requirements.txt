@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+slowapi
+google-genai
+python-dotenv
+sentence-transformers
+chromadb
